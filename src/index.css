@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Estilos globales */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+/* Inputs */
+.form input {
+  @apply w-full rounded border px-3 py-2;
+}
+
+/* Botones */
+.btn {
+  @apply px-4 py-2 rounded;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+/* Tarjetas */
+.card {
+  @apply bg-white shadow rounded p-4;
+}
+
+/* Modal */
+.modal-overlay {
+  /* Usar el nuevo sistema moderno de opacidad: bg-black/40 */
+  @apply fixed inset-0 flex items-center justify-center bg-black/40;
+}
+
+.modal {
+  @apply bg-white rounded shadow-lg p-6 w-full max-w-md;
+}
